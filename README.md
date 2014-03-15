@@ -1,4 +1,6 @@
 starter-strap
 =============
 
-starter framwork for my bootstrap 3+ projects
+starter framework for my bootstrap 3+ projects
+
+normalize.css & retina.css are included as a standard
