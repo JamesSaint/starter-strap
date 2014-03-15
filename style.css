@@ -31,14 +31,16 @@ Tags: one, two
   color: #FFF;
 }
 
-
 /* Body Styles
 ==================================*/
 body {
   font-family: 'Open Sans', sans-serif;
   color: #5A5A5A;
   font-weight: 400;
-  line-height: 1.5;
+  line-height: 2;
+}
+img {
+border: none;
 }
 
 /* Preloader
@@ -54,22 +56,17 @@ z-index:1999; /* makes sure it stays on top */
 }
 #status {
 color: #FFF;
-width:256px;
-height:256px;
+width:120px;
+height:120px;
 position:absolute;
 left:50%; /* centers the loading animation horizontally one the screen */
 top:50%; /* centers the loading animation vertically one the screen */
-background-image:url(assets/img/brand-icon/facebook.png); /* path to your loading animation */
+background-image:url(assets/img/brand-icon/touch-icon-iphone-retina.png); /* path to your loading animation */
 background-repeat:no-repeat;
 background-position:center;
-margin:-128px 0 0 -128px; /* is width and height divided by two */
+border: none;
+margin:-60px 0 0 -60px; /* is width and height divided by two */
 }
-/*.status-loading {
-position: absolute;
-color: #FFF;
-top: 150px;
-left: 150px;
-}*/
 a{
   color: #2b707e;
   text-decoration: none;
@@ -77,7 +74,14 @@ a{
 a:hover {
   text-decoration: underline;
 }
-
+.home-section-one {
+    background: #EEE;
+    padding: 30px 0px;
+}
+.home-section-two {
+    background: #DDD;
+    padding: 30px 0px;
+}
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */
 
